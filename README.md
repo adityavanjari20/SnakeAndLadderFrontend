@@ -4,7 +4,7 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 ## Steps to Run SnakeAndLadderUI
 
-Open the project in VScode/Intellji 
+Open the project in VScode/Intellij 
 
 Open Terminal run `npm install` 
 
