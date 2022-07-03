@@ -1,0 +1,21 @@
+<div id="main">
+  <img id="gameboard" src="assets/snakeLadder.jpeg">
+
+
+
+
+</div>
+<textarea id="placeholder">{{dice1}}</textarea>
+<textarea id="placeholder2">{{dice2}}</textarea>
+
+<textarea id="logs" [hidden]="!active">Hurray!! {{win}} is Winner</textarea>
+<button type="submit" id="button" (click)="roll()" [disabled]="active">Roll The Dice</button><br><br>
+<button style="margin-top: 50px;" type="submit" id="button" (click)="restart()">Restart</button><br><br><br><br>
+
+
+<div id="postion">
+  <h2>Joy at position {{Joy}}</h2>
+  <h2>Mave at position {{Mave}}</h2>
+  <h2>Aditya at position {{Aditya}}</h2>
+  <h2>Rahul at position {{Rahul}}</h2>
+</div>
